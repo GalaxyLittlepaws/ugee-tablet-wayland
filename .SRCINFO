@@ -1,0 +1,22 @@
+pkgbase = ugee-tablet-wayland
+	pkgdesc = UGEE tablet driver 4.x with a monitor-detection fix for Wayland/XWayland sessions
+	pkgver = 4.3.4
+	pkgrel = 1
+	url = https://www.ugee.com.cn/download/
+	install = PKGBUILD
+	arch = x86_64
+	license = custom: commercial
+	depends = libx11
+	depends = libxrandr
+	depends = libxinerama
+	depends = libxi
+	depends = libxtst
+	depends = libglvnd
+	depends = libusb
+	depends = xorg-xwayland
+	provides = ugee-tablet
+	conflicts = ugee-tablet
+	source = https://download.ugee.com.cn/upload/download/20241217/ugeeTablet-4.3.4-241031.tar.gz
+	sha256sums = 83c51feb0d0a1e68e7f443665a68c8dab1fb41c72ec993c045ee465f839dd2ff
+
+pkgname = ugee-tablet-wayland
